@@ -1,0 +1,9 @@
+{
+  // Runegate website: plain static files served by Cloudflare
+  "name": "runegate-website",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
