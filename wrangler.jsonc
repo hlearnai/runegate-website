@@ -5,5 +5,12 @@
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page"
-  }
+  },
+  // Own web address (domain bought in this Cloudflare account)
+  "routes": [
+    { "pattern": "runegate.us", "custom_domain": true },
+    { "pattern": "www.runegate.us", "custom_domain": true }
+  ],
+  // Keep the old runegate-website.h-learnai.workers.dev link working too
+  "workers_dev": true
 }

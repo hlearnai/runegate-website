@@ -11,5 +11,5 @@ Website files live in `public/`:
 - `favicon.svg` - tab icon
 
 Hosted on Cloudflare (Workers static assets, set up in `wrangler.jsonc`).
-Every push to `main` goes live automatically.
+Live at https://runegate.us (also www.runegate.us). Every push to `main` goes live automatically.
 Cloudflare settings: build command **empty**, deploy command `npx wrangler deploy`, root directory `/`.
